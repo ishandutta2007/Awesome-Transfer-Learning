@@ -83,3 +83,17 @@ While transfer learning saves millions of dollars in compute capital, it introdu
 | [**Low-Resource Medical Diagnostic Classification**](details/medical_diagnostic_classification.md) | **Application:** Deep convolutional or vision transformer backbones pre-trained on generic datasets (like ImageNet) are transferred to analyze specialized clinical data (like MRI, CT, or optical coherence tomography scans). The model requires fewer than 50 patient samples to classify rare anomalies precisely. | 2017 | [Esteva et al.](https://doi.org/10.1038/nature21056) |
 | [**Enterprise Language Customization & Localization**](details/enterprise_language_customization.md) | **Application:** Multilingual base foundation networks undergo transfer learning via parameter adapters (LoRA) on hyper-specific corporate data (such as internal legal terms, aerospace schematics, or regional dialects), inheriting specialized vocabulary without requiring full pre-training iterations. | 2020 | [MAD-X (Pfeiffer et al.)](https://arxiv.org/abs/2005.00052) |
 | [**Cross-Domain Robotic Policy Adaptation**](details/robotic_policy_adaptation.md) | **Application:** Autonomous manipulation and navigation models are trained within rich, high-throughput physics simulators (Sim-to-Real transfer). The learned geometric policies and physical kinetic parameters are then transferred onto tangible, physical robotic limbs operating inside dynamic factory workspaces. | 2017 | [Domain Randomization (Tobin et al.)](https://arxiv.org/abs/1703.06907) |
+
+---
+
+## 📈 Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Transfer-Learning&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Transfer-Learning&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Transfer-Learning&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Transfer-Learning&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
