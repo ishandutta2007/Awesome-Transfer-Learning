@@ -9,8 +9,12 @@ Transfer Learning is a foundational machine learning paradigm where a model deve
 
 The implementation of transfer learning has shifted from basic cross-network weight initializations on small datasets to massive foundation models serving as universal downstream engines.
 
-[Supervised ImageNet Pre-training] ----> [Domain Adaptation / Fine-Tuning] ----> [Self-Supervised Foundation Shift](Rigid Feature Extraction Arrays)        (Statistical Vector Alignment)         (In-Context Zero/Few-Shot Learning)
-
+```mermaid
+flowchart LR
+    A["Supervised ImageNet Pre-training<br/>(Rigid Feature Extraction Arrays)"]
+    --> B["Domain Adaptation / Fine-Tuning<br/>(Statistical Vector Alignment)"]
+    --> C["Self-Supervised Foundation Shift<br/>(In-Context Zero/Few-Shot Learning)"]
+```
 
 *   **The Supervised Computer Vision Era (~2012–2018)**
     *   *Concept:* Popularized by architectures like AlexNet, VGG, and ResNet trained on the massive ImageNet dataset. The low-level convolutional weights (detecting edges, textures, and shapes) were frozen, while the final classification layer was chopped off and replaced for custom target domains.
